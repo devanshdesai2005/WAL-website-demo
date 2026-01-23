@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore web development technologies through our interactive gallery">
+  <title>WAL | Gallery - Technology Showcase</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <h1 class="logo" aria-label="WAL Website Logo">
+        <span class="logo-text">WAL</span>
+        <span class="logo-subtitle">Web Application Lab</span>
+      </h1>
+      <nav class="nav" role="navigation" aria-label="Main navigation">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="gallery.html" class="nav-link active" aria-current="page">Gallery</a>
+        <a href="data.html" class="nav-link">Data</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+      <button class="mobile-toggle" aria-label="Toggle mobile menu">
+        <span class="hamburger"></span>
+      </button>
+    </div>
+  </header>
+
+  <section class="page-header">
+    <div class="container">
+      <h2 class="page-title">Technology & Development Gallery</h2>
+      <p class="page-subtitle">Explore the visual landscape of modern web development</p>
+    </div>
+  </section>
+
+  <section class="content gallery-content">
+    <div class="container">
+      <p class="gallery-description">
+        The following images represent various aspects of web application
+        development such as frontend technologies, programming, and data
+        management. Each image is clickable and redirects to a relevant
+        Google search page for further exploration.
+      </p>
+
+      <div class="gallery">
+        <a href="https://www.google.com/search?q=web+development" target="_blank" rel="noopener noreferrer" class="gallery-link">
+          <div class="img-card">
+            <div class="img-wrapper">
+              <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085" 
+                   alt="Laptop showing code editor for web development"
+                   loading="lazy">
+              <div class="img-overlay">
+                <svg class="overlay-icon" width="32" height="32" viewBox="0 0 24 24" fill="none">
+                  <path d="M10 6H6C4.89543 6 4 6.89543 4 8V18C4 19.1046 4.89543 20 6 20H16C17.1046 20 18 19.1046 18 18V14M14 4H20M20 4V10M20 4L10 14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </div>
+            </div>
+            <div class="img-content">
+              <h3 class="img-title">Web Development</h3>
+              <p class="img-description">Building modern, responsive websites with cutting-edge technologies</p>
+            </div>
+          </div>
+        </a>
+
+        <a href="https://www.google.com/search?q=frontend+technologies" target="_blank" rel="noopener noreferrer" class="gallery-link">
+          <div class="img-card">
+            <div class="img-wrapper">
+              <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c" 
+                   alt="Computer screen displaying frontend code"
+                   loading="lazy">
+              <div class="img-overlay">
+                <svg class="overlay-icon" width="32" height="32" viewBox="0 0 24 24" fill="none">
+                  <path d="M10 6H6C4.89543 6 4 6.89543 4 8V18C4 19.1046 4.89543 20 6 20H16C17.1046 20 18 19.1046 18 18V14M14 4H20M20 4V10M20 4L10 14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </div>
+            </div>
+            <div class="img-content">
+              <h3 class="img-title">Frontend Technologies</h3>
+              <p class="img-description">HTML, CSS, JavaScript frameworks and modern tooling</p>
+            </div>
+          </div>
+        </a>
+
+        <a href="https://www.google.com/search?q=javascript+programming" target="_blank" rel="noopener noreferrer" class="gallery-link">
+          <div class="img-card">
+            <div class="img-wrapper">
+              <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c" 
+                   alt="JavaScript code on multiple screens"
+                   loading="lazy">
+              <div class="img-overlay">
+                <svg class="overlay-icon" width="32" height="32" viewBox="0 0 24 24" fill="none">
+                  <path d="M10 6H6C4.89543 6 4 6.89543 4 8V18C4 19.1046 4.89543 20 6 20H16C17.1046 20 18 19.1046 18 18V14M14 4H20M20 4V10M20 4L10 14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </div>
+            </div>
+            <div class="img-content">
+              <h3 class="img-title">JavaScript Programming</h3>
+              <p class="img-description">Interactive features and dynamic functionality</p>
+            </div>
+          </div>
+        </a>
+
+        <a href="https://www.google.com/search?q=data+management" target="_blank" rel="noopener noreferrer" class="gallery-link">
+          <div class="img-card">
+            <div class="img-wrapper">
+              <img src="https://images.unsplash.com/photo-1581090700227-1e37b190418e" 
+                   alt="Data visualization and charts"
+                   loading="lazy">
+              <div class="img-overlay">
+                <svg class="overlay-icon" width="32" height="32" viewBox="0 0 24 24" fill="none">
+                  <path d="M10 6H6C4.89543 6 4 6.89543 4 8V18C4 19.1046 4.89543 20 6 20H16C17.1046 20 18 19.1046 18 18V14M14 4H20M20 4V10M20 4L10 14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </div>
+            </div>
+            <div class="img-content">
+              <h3 class="img-title">Data Management</h3>
+              <p class="img-description">Efficient data handling and visualization techniques</p>
+            </div>
+          </div>
+        </a>
+
+        <a href="https://www.google.com/search?q=responsive+web+design" target="_blank" rel="noopener noreferrer" class="gallery-link">
+          <div class="img-card">
+            <div class="img-wrapper">
+              <img src="https://images.unsplash.com/photo-1547658719-da2b51169166" 
+                   alt="Multiple devices showing responsive design"
+                   loading="lazy">
+              <div class="img-overlay">
+                <svg class="overlay-icon" width="32" height="32" viewBox="0 0 24 24" fill="none">
+                  <path d="M10 6H6C4.89543 6 4 6.89543 4 8V18C4 19.1046 4.89543 20 6 20H16C17.1046 20 18 19.1046 18 18V14M14 4H20M20 4V10M20 4L10 14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </div>
+            </div>
+            <div class="img-content">
+              <h3 class="img-title">Responsive Design</h3>
+              <p class="img-description">Seamless experience across all device sizes</p>
+            </div>
+          </div>
+        </a>
+
+        <a href="https://www.google.com/search?q=ui+ux+design" target="_blank" rel="noopener noreferrer" class="gallery-link">
+          <div class="img-card">
+            <div class="img-wrapper">
+              <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5" 
+                   alt="UI/UX design wireframes and mockups"
+                   loading="lazy">
+              <div class="img-overlay">
+                <svg class="overlay-icon" width="32" height="32" viewBox="0 0 24 24" fill="none">
+                  <path d="M10 6H6C4.89543 6 4 6.89543 4 8V18C4 19.1046 4.89543 20 6 20H16C17.1046 20 18 19.1046 18 18V14M14 4H20M20 4V10M20 4L10 14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </div>
+            </div>
+            <div class="img-content">
+              <h3 class="img-title">UI/UX Design</h3>
+              <p class="img-description">Creating intuitive and beautiful user experiences</p>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <h3 class="footer-logo">WAL</h3>
+          <p class="footer-tagline">Web Application Lab 2026</p>
+        </div>
+        <div class="footer-links">
+          <a href="about.html">About</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="data.html">Data</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 WAL Project. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
